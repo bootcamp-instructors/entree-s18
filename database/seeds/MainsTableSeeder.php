@@ -49,7 +49,37 @@ class MainsTableSeeder extends Seeder
             'updated_at' => Carbon::now()
         ]);
         DB::table('mains')->insert([
-            'name' => 'chicken breast',
+            'name' => 'beef ribs',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('mains')->insert([
+            'name' => 'tuna steak',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('mains')->insert([
+            'name' => 'ribeye',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('mains')->insert([
+            'name' => 'pasta',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('mains')->insert([
+            'name' => 'tofu',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('mains')->insert([
+            'name' => 'omelet',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('mains')->insert([
+            'name' => 'eggplant',
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now()
         ]);

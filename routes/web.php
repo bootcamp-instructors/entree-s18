@@ -15,4 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('/entree', 'EntreeController');
+Route::get('/v1/menu/{count}', 'MenuController@page');
+Route::get('/v1/menu', 'MenuController@index');

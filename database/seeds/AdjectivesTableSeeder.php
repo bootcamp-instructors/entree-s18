@@ -93,5 +93,123 @@ class AdjectivesTableSeeder extends Seeder
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now()
         ]);
+        DB::table('adjectives')->insert([
+            'name' => 'passive',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'free-range',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'swaddled',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'underwhelming',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'canned',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'pensive',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'pan-fried',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'deep-fried',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'peppered',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'carmelized',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'barbecued',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'smoky',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'lean',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'restricted',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'enveloped',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'overturned',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'resigned',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'carved',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'shaved',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'curried',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'spicy',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'watery',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'glazed',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+
+
+
     }
 }

@@ -3,10 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
 
-class EntreeController extends Controller
+class MenuController extends Controller
 {
+
+    private $default_menu_size = 10;
+    private $minimum_menu_items = 1;
+    private $maximum_menu_items = 25;
+
     /**
      * Display a listing of the resource.
      *
@@ -14,19 +19,36 @@ class EntreeController extends Controller
      */
     public function index()
     {
-        $main = DB::select('select name from mains order by random() limit ?', [1]);
-        $sides = DB::select('select name from sides order by random() limit ?', [2]);
-        $adjectives = DB::select('select name from adjectives order by random() limit ?', [3]);
-
-        // ucfirst()
-
-        $entree = ucfirst($adjectives[0]->name) . ' ' . $main[0]->name . ' with ' . $adjectives[1]->name . ' ' . $sides[0]->name . ' and ' . $adjectives[2]->name . ' ' . $sides[1]->name;
-
-        return [ [ 'entree' => $entree ] ];
-
-
-
+        return $this->page($this->default_menu_size);
     }
+
+
+
+    public function page($count) 
+    {
+        // Count needs to be an integer, and a reasonable one.
+        $count = intval($count);
+        if ( $count < $this->minimum_menu_items || $count > $this->maximum_menu_items ) {
+            $count = $this->default_menu_size;
+        }
+
+        $menu_items = [];
+        for ($i = 1; $i <= $count; $i++) {
+            array_push( $menu_items, new \App\Entree );
+        }
+
+        $menu = [
+            'created_at' => Carbon::now(),
+            'menu_size' => $count,
+            'menu_items' => $menu_items
+        ];
+    
+        return $menu;
+    }
+
+
+
+
 
     /**
      * Show the form for creating a new resource.

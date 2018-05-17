@@ -63,6 +63,66 @@ class SidesTableSeeder extends Seeder
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now()
         ]);
+        DB::table('sides')->insert([
+            'name' => 'yams',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('sides')->insert([
+            'name' => 'beets',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('sides')->insert([
+            'name' => 'tomatoes',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('sides')->insert([
+            'name' => 'eggplant',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('sides')->insert([
+            'name' => 'radishes',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('sides')->insert([
+            'name' => 'brussel sprouts',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('sides')->insert([
+            'name' => 'black beans',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('sides')->insert([
+            'name' => 'cabbage',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('sides')->insert([
+            'name' => 'romaine',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('sides')->insert([
+            'name' => 'spinach',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('sides')->insert([
+            'name' => 'corn',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('sides')->insert([
+            'name' => 'snow peas',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
 
     }
 }
