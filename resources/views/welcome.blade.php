@@ -1,7 +1,8 @@
 <!doctype html>
-<html lang="{{ app()->getLocale() }}">
+<html lang="en" xml:lang="en" xmlns= "http://www.w3.org/1999/xhtml">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="Content-Language" content="en">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
