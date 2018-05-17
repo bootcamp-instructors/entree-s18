@@ -78,17 +78,18 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                <h1>Entree</h1>
+                <h2>A delightful little random menu generator</h2>
+                <p>
+                    To generate a random menu<br />with the default number of items:<br />
+                    <code><a href="http://{{ $_SERVER['HTTP_HOST'] }}/v1/menu">{{ $_SERVER['HTTP_HOST'] }}/v1/menu</a></code>
+                </p>
+                <p>
+                    To generate a random menu<br />with 12 items:<br />
+                    <code><a href="http://{{ $_SERVER['HTTP_HOST'] }}/v1/menu/12">{{ $_SERVER['HTTP_HOST'] }}/v1/menu/12</a></code>
+                </p>
+
             </div>
         </div>
     </body>
