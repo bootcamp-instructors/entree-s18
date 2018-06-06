@@ -1,7 +1,7 @@
 <?php
 
 // Quick and dirty fix for CORS
-header("Access-Control-Allow-Origin: http://localhost");
+header("Access-Control-Allow-Origin: *");
 
 /**
  * Laravel - A PHP Framework For Web Artisans
