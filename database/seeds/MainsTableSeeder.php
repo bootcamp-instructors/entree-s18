@@ -83,6 +83,11 @@ class MainsTableSeeder extends Seeder
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now()
         ]);
+        DB::table('mains')->insert([
+            'name' => 'braaaaaaains',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
 
     }
 }

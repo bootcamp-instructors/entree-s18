@@ -208,8 +208,31 @@ class AdjectivesTableSeeder extends Seeder
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now()
         ]);
-
-
+        DB::table('adjectives')->insert([
+            'name' => 'pugnacious',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'impertinent',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'complicated',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'frosted',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+        DB::table('adjectives')->insert([
+            'name' => 'smashed',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
 
     }
 }
