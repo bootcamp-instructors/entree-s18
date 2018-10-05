@@ -84,11 +84,11 @@
                 <h2>A delightful little random menu generator</h2>
                 <p>
                     To generate a random menu<br />with the default number of items:<br />
-                    <code><a href="http://{{ $_SERVER['HTTP_HOST'] }}/v1/menu">{{ $_SERVER['HTTP_HOST'] }}/v1/menu</a></code>
+                    <code><a href="https://{{ $_SERVER['HTTP_HOST'] }}/v1/menu">{{ $_SERVER['HTTP_HOST'] }}/v1/menu</a></code>
                 </p>
                 <p>
                     To generate a random menu<br />with 12 items:<br />
-                    <code><a href="http://{{ $_SERVER['HTTP_HOST'] }}/v1/menu/12">{{ $_SERVER['HTTP_HOST'] }}/v1/menu/12</a></code>
+                    <code><a href="https://{{ $_SERVER['HTTP_HOST'] }}/v1/menu/12">{{ $_SERVER['HTTP_HOST'] }}/v1/menu/12</a></code>
                 </p>
 
             </div>
